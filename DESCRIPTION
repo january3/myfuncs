@@ -1,10 +1,11 @@
 Package: myfuncs
 Type: Package
 Title: loads a few functions I often need
-Version: 1.9
-Date: 2019-04-05
+Version: 1.10
+Date: 2019-06-14
 Author: January Weiner
 Maintainer: Who to complain to <january.weiner@gmail.com>
 Description: More about what it does (maybe more than one line)
 License: What license is it under? No idea.
 RoxygenNote: 6.1.1
+Encoding: UTF-8
