@@ -1,0 +1,70 @@
+#' A collection of utility functions
+#' 
+#' A collection of utility functions
+#' 
+#' 
+#' @section Shortcuts:
+#' \itemize{
+#'   \item  \code{\link{catf}} and \code{\link{printf}} implement printf() like functions
+#'   \item  \code{\link{os}} display memory usage
+#'   \item  \link{shortcuts}: \code{l}, \code{h} and \code{p}: wrappers for \code{length}, \code{head} and \code{paste}
+#'   \item  \code{\link{msd}} and \code{\link{ss}} mean and sd; sum of squares
+#'   \item  \code{\link{zz}} save everything
+#'   \item  \code{\link{myfuncs.reload}} reload the myfuncs package
+#' }
+#'
+#' @section Graphics and plotting:
+#' \itemize{
+#'   \item  \code{\link{all.ablines}} Draw three lines (horizontal at 0, vertical at 0, and diagonal)
+#'   \item  \code{\link{arrayplot}} Show image representation of a microarray
+#'   \item  \code{\link{showgene}} beeswarm + boxplot for a gene 
+#'   \item  \code{\link{myfaces}} My version of Chernoff faces
+#'   \item  \code{\link{plotGenes}} Show expression for a number of genes in all arrays
+#'   \item  \code{\link{dotpair}} A version of \code{pairs} showing also correlation coefficients
+#'   \item  \code{\link{genePairs}} A version of \code{pairs} showing also correlation coefficients for large numbers of data points (using smoothScatter)
+#'   \item  \code{\link{myPlotDensities}} A replacement for
+#' \code{plotDensities} from \code{limma} for single-color arrays and for
+#' coloring array groups
+#'   \item  \code{\link{pairedswarm}} Beeswarm with lines linking pairs
+#'   \item  \code{\link{clustCompPlot}} compare different clusterings in an overview plot
+#'   \item  \code{\link{mypalette}} Nice color palette
+#'   \item  \code{\link{pcaR2plot}} Calculate and visualize PCA regression
+#'   \item  \code{\link{ttplot}} Plot a top table
+#'   \item  \code{\link{copyan}} Produce an annotated PDF copy of a plot
+#'}
+#' @section Analysis:
+#' \itemize{
+#'   \item  \code{\link{getGOrilla}} run GOrilla from R
+#'   \item  \code{\link{topTableAll}} produce a topTable-like output for all contrasts in a fit object
+#'   \item  \code{\link{ttmake}} produce a topTable-like output including the msd measure
+#'   \item  \code{\link{confuMat}} confusion matrix based on reality vs predictions
+
+#' }
+#' @section Data manipulation:
+#' \itemize{
+#'   \item  \code{\link{calcDif}} calculate pair differences in a limma object (for paired samples analysis)
+#'   \item  \code{\link{grep.df}} Grep all columns of a data frame
+#'   \item  \code{\link{repsapply}} general version of \code{avereps}
+#' }
+#' @section Others:
+#' \itemize{
+#'   \item  \code{\link{centers.predict}}
+#'   \item  \code{\link{clustsizes}}
+#'   \item  \code{\link{likelihood.test}}
+#'   \item  \code{\link{lineq}}
+#'   \item  \code{\link{matrixReshuffle}}
+#'   \item  \code{\link{pca2var}}
+#'   \item  \code{\link{pvals}}
+#'   \item  \code{\link{rfvalid}}
+#'   \item  \code{\link{ringfence}}
+#'   \item  \code{\link{smoothPalette}}
+#'   \item  \code{\link{twofacreshape}}
+#' }
+#' 
+#'
+#' @aliases myfuncs
+#' @title My collection of utility functions
+#' @name myfuncs-package
+#' @docType package
+#' @author January Weiner <january.weiner@@gmail.com>
+NULL

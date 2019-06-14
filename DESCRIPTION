@@ -1,0 +1,10 @@
+Package: myfuncs
+Type: Package
+Title: loads a few functions I often need
+Version: 1.9
+Date: 2019-04-05
+Author: January Weiner
+Maintainer: Who to complain to <january.weiner@gmail.com>
+Description: More about what it does (maybe more than one line)
+License: What license is it under? No idea.
+RoxygenNote: 6.1.1
