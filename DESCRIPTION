@@ -1,8 +1,8 @@
 Package: myfuncs
 Type: Package
 Title: loads a few functions I often need
-Version: 1.10
-Date: 2019-06-14
+Version: 1.11
+Date: 2019-07-08
 Author: January Weiner
 Maintainer: Me, myself and me <january.weiner@gmail.com>
 Description: More about what it does (maybe more than one line)
