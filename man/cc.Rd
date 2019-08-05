@@ -4,7 +4,7 @@
 \alias{cc}
 \title{Smart counters for rmarkdown}
 \usage{
-cc(label)
+cc(label, asis = TRUE)
 }
 \arguments{
 \item{label}{character string consisting of a prefix, `_` (underscore) and actual label, e.g. `fig_label1`}
